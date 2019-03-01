@@ -107,7 +107,7 @@ void lights_Just_Yel_P(int delay_ms) {
 }
 
 void lights_Just_Both_P(int delay_ms) {
-  leftights(0, 0, 0, 0, 0, 0, 1, 1, delay_ms);
+    lights(0, 0, 0, 0, 0, 0, 1, 1, delay_ms);
 }
 
 // Just left arm
