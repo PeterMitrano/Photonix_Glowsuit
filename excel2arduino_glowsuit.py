@@ -2,6 +2,7 @@ import os
 import string
 import csv
 import sys
+import shutil
 
 # Forever
 FOREVER = 500000
@@ -32,8 +33,8 @@ void loop() {
 '''
 
 LOOP_END = '''
-    lights_ALL_OFF(50000);
-    //Ending delay, so stays off "forever"
+  //Ending delay, so stays off "forever"
+  lights_ALL_OFF(50000);
 }
 '''
 
@@ -231,12 +232,22 @@ def red_P(suit_num=0):
 
 
 def preset2code(preset_name, duration):
-    function_call = "lights_" + preset_name + "(" + str(duration) + ");\n"
+    function_call = "  lights_" + preset_name + "(" + str(duration) + ");\n"
     return function_call
 
 
 def lights2code(left_arm,right_arm,left_leg,right_leg,head_back,white_bottom,yellow_p,red_p,duration):
-    return ""
+    return "  lights(" +\
+    left_arm      +"," +\
+    right_arm     +"," +\
+    left_leg      +"," +\
+    right_leg     +"," +\
+    head_back     +"," +\
+    white_bottom  +"," +\
+    yellow_p      +"," +\
+    red_p         +"," +\
+    str(duration)      +\
+    ");\n"
 
 if __name__ == "__main__":
 
@@ -251,7 +262,7 @@ if __name__ == "__main__":
     csvreader = csv.reader(csvfile)
 
     # Calculate number of glowsuits mapped in csv file
-    num_suits = (len(next(csvreader, None)) - NUM_HEADER) / NUM_SETTINGS
+    num_suits = (len(next(csvreader, None)) - NUM_HEADER) // NUM_SETTINGS
     # Array to store a loop string for each glowsuit
     ino_loops = []
 
@@ -265,27 +276,26 @@ if __name__ == "__main__":
     for row in csvreader:
 
         # calculate the delay in milliseconds from previous lights
-        delay_ms = row[TIME_ABS_COL] - prev_abs_time
-
+        delay_ms = int(row[TIME_ABS_COL]) - int(prev_abs_time)
         for suit in range(num_suits):
             # Preset is set
             if (prev_row[preset(suit)] != ""):
                 ino_loops[suit] += preset2code(prev_row[preset(suit)], delay_ms)
             else:
                 ino_loops[suit] += lights2code(
-                                        left_arm(suit),
-                                        right_arm(suit),
-                                        left_leg(suit),
-                                        right_leg(suit),
-                                        head_back(suit),
-                                        white_bottom(suit),
-                                        yellow_P(suit),
-                                        red_P(suit),
+                                        prev_row[left_arm(suit)],
+                                        prev_row[right_arm(suit)],
+                                        prev_row[left_leg(suit)],
+                                        prev_row[right_leg(suit)],
+                                        prev_row[head_back(suit)],
+                                        prev_row[white_bottom(suit)],
+                                        prev_row[yellow_P(suit)],
+                                        prev_row[red_P(suit)],
                                         delay_ms
                                     )
         # Set prev_row as current row
         prev_row = row
-        prev_abs_time = row[TIME_ABS_COL]
+        prev_abs_time = int(row[TIME_ABS_COL])
 
     # Final row should have 'infinite' delay
     for suit in range(num_suits):
@@ -293,14 +303,14 @@ if __name__ == "__main__":
             ino_loops[suit] += preset2code(prev_row[preset(suit)], FOREVER)
         else:
             ino_loops[suit] += lights2code(
-                                    left_arm(suit),
-                                    right_arm(suit),
-                                    left_leg(suit),
-                                    right_leg(suit),
-                                    head_back(suit),
-                                    white_bottom(suit),
-                                    yellow_P(suit),
-                                    red_P(suit),
+                                    prev_row[left_arm(suit)],
+                                    prev_row[right_arm(suit)],
+                                    prev_row[left_leg(suit)],
+                                    prev_row[right_leg(suit)],
+                                    prev_row[head_back(suit)],
+                                    prev_row[white_bottom(suit)],
+                                    prev_row[yellow_P(suit)],
+                                    prev_row[red_P(suit)],
                                     FOREVER
                                 )
 
@@ -309,7 +319,19 @@ if __name__ == "__main__":
         ino_loops[suit] += LOOP_END
 
     # Produce finalized code for each suit
-    for suit in range(num_suits):
-        ino_out = SETUP + ino_loops[suit] + LIGHTS_FUNCTIONS
-        print(ino_out)
+    personNum = 1;
+    for pString in ino_loops:
+      # Set folder and file name
+      fileName = "P"+str(personNum)
+      # Delete existing folder of the same name
+      if os.path.exists(fileName) and os.path.isdir(fileName):
+        shutil.rmtree(fileName)
+      # Make folder (Arduino needs the ino file to be in a folder of the same name)
+      os.mkdir(fileName)
+      # Create file and write contents to it
+      f = open(fileName+"/"+fileName+".ino", "w")
+      f.write(SETUP + ino_loops[personNum-1] + LIGHTS_FUNCTIONS)
+      f.close()
+      # Move onto next person
+      personNum += 1
 
