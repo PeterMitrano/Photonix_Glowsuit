@@ -115,6 +115,21 @@ void lights_Just_LeftArm(int delay_ms) {
     lights(1, 0, 0, 0, 0, 0, 0, 0, delay_ms);
 }
 
+// Just right arm
+void lights_Just_RightArm(int delay_ms) {
+    lights(0, 1, 0, 0, 0, 0, 0, 0, delay_ms);
+}
+
+// Just left leg
+void lights_Just_LeftLeg(int delay_ms) {
+    lights(0, 0, 1, 0, 0, 0, 0, 0, delay_ms);
+}
+
+// Just right leg
+void lights_Just_RightLeg(int delay_ms) {
+    lights(0, 0, 0, 1, 0, 0, 0, 0, delay_ms);
+}
+
 // Both Arms illuminated
 void lights_BOTH_ARMS(int delay_ms) {
     lights(1, 1, 0, 0, 0, 0, 0, 0, delay_ms);
