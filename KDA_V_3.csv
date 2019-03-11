@@ -1,0 +1,107 @@
+Time,Time Abs,Time diff,Move,Comment,P1 Preset,Left Arm,Right Arm,Left Leg,Right Leg,Head/Back,White Bottom,Yellow P,Red P,P2 Preset,Left Arm,Right Arm,Left Leg,Right Leg,Head/Back,White Bottom,Yellow P,Red P,P3 Preset,Left Arm,Right Arm,Left Leg,Right Leg,Head/Back,White Bottom,Yellow P,Red P,P4 Preset,Left Arm,Right Arm,Left Leg,Right Leg,Head/Back,White Bottom,Yellow P,Red P
+0,178550, ,All On,,ALL_ON_Yel_P,,,,,,,,,ALL_ON_Yel_P,,,,,,,,,ALL_ON_Yel_P,,,,,,,,,ALL_ON_Yel_P,,,,,,,,
+5.6,181372,2822,P234 Off,,ALL_ON_Yel_P,,,,,,,,,ALL_OFF,,,,,,,,,ALL_OFF,,,,,,,,,ALL_OFF,,,,,,,,
+6.7,182431,1059,P1 Off,,ALL_OFF,,,,,,,,,ALL_OFF,,,,,,,,,ALL_OFF,,,,,,,,,ALL_OFF,,,,,,,,
+,182441,10,P1 On,Flicker(10),ALL_ON_Yel_P,,,,,,,,,ALL_ON_Yel_P,,,,,,,,,ALL_ON_Yel_P,,,,,,,,,ALL_OFF,,,,,,,,
+7.1,182784,343,P4 On,-10 from above,ALL_ON_Yel_P,,,,,,,,,ALL_OFF,,,,,,,,,ALL_OFF,,,,,,,,,ALL_ON_Yel_P,,,,,,,,
+8.08,183843,1059,P4 Off,,ALL_ON_Yel_P,,,,,,,,,ALL_OFF,,,,,,,,,ALL_OFF,,,,,,,,,ALL_OFF,,,,,,,,
+,183853,10,P4 On,Flicker(10),ALL_ON_Yel_P,,,,,,,,,ALL_OFF,,,,,,,,,ALL_OFF,,,,,,,,,ALL_ON_Yel_P,,,,,,,,
+8.82,184549,696,P23 On,-10 from above,ALL_ON_Yel_P,,,,,,,,,ALL_ON_Yel_P,,,,,,,,,ALL_ON_Yel_P,,,,,,,,,ALL_ON_Yel_P,,,,,,,,
+9.65,185255,706,All Off,,ALL_OFF,,,,,,,,,ALL_OFF,,,,,,,,,ALL_OFF,,,,,,,,,ALL_OFF,,,,,,,,
+10.27,185960,705,"P14 Arms On,
+P2 Green P On",,BOTH_ARMS,,,,,,,,,Just_Yel_P,,,,,,,,,ALL_OFF,,,,,,,,,BOTH_ARMS,,,,,,,,
+10.45,186137,177,"P2 Green P Off
+P2 Red P On",,BOTH_ARMS,,,,,,,,,Just_Red_P,,,,,,,,,ALL_OFF,,,,,,,,,BOTH_ARMS,,,,,,,,
+10.63,186314,177,"P2 Green P On
+P2 Red P Off",,BOTH_ARMS,,,,,,,,,Just_Yel_P,,,,,,,,,ALL_OFF,,,,,,,,,BOTH_ARMS,,,,,,,,
+10.97,186676,362,"P124 Off
+P3 On",After (+10),ALL_OFF,,,,,,,,,ALL_OFF,,,,,,,,,ALL_ON_Yel_P,,,,,,,,,ALL_OFF,,,,,,,,
+15.57,191255,4579,"P3 Legs Off
+P4 Legs On",(-10 due to above),ALL_OFF,,,,,,,,,ALL_OFF,,,,,,,,,,1,1,0,0,1,1,1,0,,0,0,1,1,0,0,0,0
+,191608,353,"P3 Body/P Off
+P4 Body/P On",,ALL_OFF,,,,,,,,,ALL_OFF,,,,,,,,,,1,1,0,0,1,0,0,0,,0,0,1,1,0,1,1,0
+,191960,352,"P3 Arms Off
+P4 Arms On",,ALL_OFF,,,,,,,,,ALL_OFF,,,,,,,,,,0,0,0,0,1,0,0,0,,1,1,1,1,0,1,1,0
+,192313,353,"P3 Head Off
+P4 Head On",,ALL_OFF,,,,,,,,,ALL_OFF,,,,,,,,,ALL_OFF,,,,,,,,,ALL_ON_Yel_P,,,,,,,,
+,196902,4589,,,ALL_OFF,,,,,,,,,ALL_OFF,,,,,,,,,ALL_OFF,,,,,,,,,ALL_ON_Yel_P,,,,,,,,
+,197255,353,P1 On,,ALL_ON_Yel_P,,,,,,,,,ALL_OFF,,,,,,,,,ALL_OFF,,,,,,,,,ALL_ON_Yel_P,,,,,,,,
+,197608,353,P2 On,,ALL_ON_Yel_P,,,,,,,,,ALL_ON_Yel_P,,,,,,,,,ALL_OFF,,,,,,,,,ALL_ON_Yel_P,,,,,,,,
+,197961,353,P3 On,,ALL_ON_Yel_P,,,,,,,,,ALL_ON_Yel_P,,,,,,,,,ALL_ON_Yel_P,,,,,,,,,ALL_ON_Yel_P,,,,,,,,
+22.63,198314,353,P34 Off,,ALL_ON_Yel_P,,,,,,,,,ALL_ON_Yel_P,,,,,,,,,ALL_OFF,,,,,,,,,ALL_OFF,,,,,,,,
+31.47,207137,8823,All Off,,ALL_OFF,,,,,,,,,ALL_OFF,,,,,,,,,ALL_OFF,,,,,,,,,ALL_OFF,,,,,,,,
+32.53,208196,1059,P3 On,,ALL_OFF,,,,,,,,,ALL_OFF,,,,,,,,,ALL_ON_Yel_P,,,,,,,,,ALL_OFF,,,,,,,,
+32.83,208549,353,P2 On,,ALL_OFF,,,,,,,,,ALL_ON_Yel_P,,,,,,,,,ALL_ON_Yel_P,,,,,,,,,ALL_OFF,,,,,,,,
+33.2,208902,353,P1 On,,ALL_ON_Yel_P,,,,,,,,,ALL_ON_Yel_P,,,,,,,,,ALL_ON_Yel_P,,,,,,,,,ALL_OFF,,,,,,,,
+33.52,209255,353,P4 On,,ALL_OFF,,,,,,,,,ALL_ON_Yel_P,,,,,,,,,ALL_ON_Yel_P,,,,,,,,,ALL_ON_Yel_P,,,,,,,,
+33.75,209608,353,"P3 on, everyone else off",,ALL_OFF,,,,,,,,,ALL_OFF,,,,,,,,,ALL_ON_Yel_P,,,,,,,,,ALL_OFF,,,,,,,,
+34.07,211019,1411,P2 Arms On,,ALL_OFF,,,,,,,,,BOTH_ARMS,,,,,,,,,ALL_ON_Yel_P,,,,,,,,,ALL_OFF,,,,,,,,
+35.37,212431,1412,P1 Arms On,,BOTH_ARMS,,,,,,,,,BOTH_ARMS,,,,,,,,,ALL_ON_Yel_P,,,,,,,,,ALL_OFF,,,,,,,,
+36.72,213843,1412,P4 Arms On,,BOTH_ARMS,,,,,,,,,BOTH_ARMS,,,,,,,,,ALL_ON_Yel_P,,,,,,,,,BOTH_ARMS,,,,,,,,
+41,216656,2813,"P234 Arms Off
+P234 Legs On",Before (-10),BOTH_LEGS,,,,,,,,,BOTH_LEGS,,,,,,,,,ALL_ON_Yel_P,,,,,,,,,BOTH_LEGS,,,,,,,,
+42.39,218068,1412,All On,"Before (-10) and 
+(+10 due to previous)",ALL_ON_Yel_P,,,,,,,,,ALL_ON_Yel_P,,,,,,,,,ALL_ON_Yel_P,,,,,,,,,ALL_ON_Yel_P,,,,,,,,
+43.83,219490,1422,All Off,(+10 due to above),ALL_OFF,,,,,,,,,ALL_OFF,,,,,,,,,ALL_OFF,,,,,,,,,ALL_OFF,,,,,,,,
+45.2,220902,1412,P2 On,,ALL_OFF,,,,,,,,,ALL_ON_Yel_P,,,,,,,,,ALL_OFF,,,,,,,,,ALL_OFF,,,,,,,,
+46.63,222314,1412,P3 On,,ALL_OFF,,,,,,,,,ALL_ON_Yel_P,,,,,,,,,ALL_ON_Yel_P,,,,,,,,,ALL_OFF,,,,,,,,
+48.05,223725,1411,P1 On,,ALL_ON_Yel_P,,,,,,,,,ALL_ON_Yel_P,,,,,,,,,ALL_ON_Yel_P,,,,,,,,,ALL_OFF,,,,,,,,
+49.45,225137,1412,P4 On,,ALL_ON_Yel_P,,,,,,,,,ALL_ON_Yel_P,,,,,,,,,ALL_ON_Yel_P,,,,,,,,,ALL_ON_Yel_P,,,,,,,,
+52.28,227960,2823,P12 Off,,ALL_OFF,,,,,,,,,ALL_OFF,,,,,,,,,ALL_ON_Yel_P,,,,,,,,,ALL_ON_Yel_P,,,,,,,,
+52.82,228666,706,P34 Off,,ALL_OFF,,,,,,,,,ALL_OFF,,,,,,,,,ALL_OFF,,,,,,,,,ALL_OFF,,,,,,,,
+53.7,229372,706,P1234 Flicker,,Just_RightArm,,,,,,,,,Just_Red_P,,,,,,,,,Just_Yel_P,,,,,,,,,Just_RightLeg,,,,,,,,
+,229549,177,,,Just_Yel_P,,,,,,,,,Just_LeftArm,,,,,,,,,Just_RightArm,,,,,,,,,Just_LeftArm,,,,,,,,
+,229726,177,,,,0,0,0,1,0,1,0,0,ALL_OFF,,,,,,,,,ALL_OFF,,,,,,,,,Just_Red_P,,,,,,,,
+,229903,177,,,ALL_OFF,,,,,,,,,Just_RightLeg,,,,,,,,,Just_LeftArm,,,,,,,,,ALL_OFF,,,,,,,,
+,230080,177,,,Just_LeftArm,,,,,,,,,,0,1,0,0,0,1,0,0,,0,0,0,0,0,1,0,0,Just_LeftArm,,,,,,,,
+,230257,177,,,ALL_OFF,,,,,,,,,Just_LeftLeg,,,,,,,,,,1,0,1,0,0,,1,0,ALL_OFF,,,,,,,,
+,230434,177,,,Just_RightArm,,,,,,,,,Just_Yel_P,,,,,,,,,Just_LeftArm,,,,,,,,,,0,0,0,0,0,1,0,0
+,230611,177,,,,0,1,0,0,1,0,0,0,Just_RightArm,,,,,,,,,Just_LeftLeg,,,,,,,,,Just_Yel_P,,,,,,,,
+,230788,177,,,Just_Yel_P,,,,,,,,,,0,0,0,0,0,1,0,0,ALL_OFF,,,,,,,,,Just_LeftLeg,,,,,,,,
+,230965,177,,,Just_LeftArm,,,,,,,,,Just_Red_P,,,,,,,,,Just_RightArm,,,,,,,,,,0,0,0,0,0,1,0,0
+,231142,177,,,Just_RightLeg,,,,,,,,,Just_RightLeg,,,,,,,,,Just_RightLeg,0,0,0,0,0,1,0,0,Just_Red_P,,,,,,,,
+,231319,177,,,Just_Yel_P,,,,,,,,,,0,0,0,0,1,0,0,0,,,,,,,,,,ALL_OFF,,,,,,,,
+,231496,177,,,ALL_OFF,,,,,,,,,Just_Yel_P,,,,,,,,,Just_Red_P,0,0,0,0,1,0,0,0,,,,,,,,,
+,231673,177,,,Just_LeftArm,,,,,,,,,ALL_OFF,,,,,,,,,Just_LeftLeg,,,,,,,,,Just_LeftLeg,,,,,,,,
+,231850,177,,,Just_RightLeg,,,,,,,,,Just_LeftArm,,,,,,,,,Just_RightArm,,,,,,,,,,1,0,0,0,0,1,0,0
+56.53,231975,125,All Off,,ALL_OFF,,,,,,,,,ALL_OFF,,,,,,,,,ALL_OFF,,,,,,,,,ALL_OFF,,,,,,,,
+56.83,232549,574,P1 P On,,Just_Yel_P,,,,,,,,,ALL_OFF,,,,,,,,,ALL_OFF,,,,,,,,,ALL_OFF,,,,,,,,
+,232902,353,"P1 P Off
+P3 P On",,ALL_OFF,,,,,,,,,ALL_OFF,,,,,,,,,Just_Yel_P,,,,,,,,,ALL_OFF,,,,,,,,
+,233255,353,"P3 P Off
+P2 P On",,ALL_OFF,,,,,,,,,Just_Yel_P,,,,,,,,,ALL_OFF,,,,,,,,,ALL_OFF,,,,,,,,
+,233608,353,"P2 P Off
+P4 P On",,ALL_OFF,,,,,,,,,ALL_OFF,,,,,,,,,ALL_OFF,,,,,,,,,Just_Yel_P,,,,,,,,
+58.28,233961,353,All Ps Red,,Just_Red_P,,,,,,,,,Just_Red_P,,,,,,,,,Just_Red_P,,,,,,,,,Just_Red_P,,,,,,,,
+,234138,177,All P Yellow,,Just_Yel_P,,,,,,,,,Just_Yel_P,,,,,,,,,Just_Yel_P,,,,,,,,,Just_Yel_P,,,,,,,,
+,234315,177,All P Red,,Just_Red_P,,,,,,,,,Just_Red_P,,,,,,,,,Just_Red_P,,,,,,,,,Just_Red_P,,,,,,,,
+,234492,177,All P Yellow,,Just_Yel_P,,,,,,,,,Just_Yel_P,,,,,,,,,Just_Yel_P,,,,,,,,,Just_Yel_P,,,,,,,,
+,234669,177,All P Red,,Just_Red_P,,,,,,,,,Just_Red_P,,,,,,,,,Just_Red_P,,,,,,,,,Just_Red_P,,,,,,,,
+,234846,177,All P Yellow,,Just_Yel_P,,,,,,,,,Just_Yel_P,,,,,,,,,Just_Yel_P,,,,,,,,,Just_Yel_P,,,,,,,,
+,235023,177,All P Red,,Just_Red_P,,,,,,,,,Just_Red_P,,,,,,,,,Just_Red_P,,,,,,,,,Just_Red_P,,,,,,,,
+59.7,235200,177,All On,,ALL_ON_Yel_P,,,,,,,,,ALL_ON_Yel_P,,,,,,,,,ALL_ON_Yel_P,,,,,,,,,ALL_ON_Yel_P,,,,,,,,
+1 10.64,246318,11118,"All Lights from bottom to top
+Layered turn off",,,1,1,0,0,1,1,1,0,,1,1,0,0,1,1,1,0,,1,1,0,0,1,1,1,0,,1,1,0,0,1,1,1,1
+,246495,177,,,,1,1,0,0,0,0,1,0,,1,1,0,0,0,0,1,0,,1,1,0,0,0,0,1,0,,1,1,0,0,0,0,1,0
+,246672,177,,,,1,1,0,0,0,0,0,0,,1,1,0,0,0,0,0,0,,1,1,0,0,0,0,0,0,,1,1,0,0,0,0,0,0
+,246849,177,,,BOTH_ARMS,,,,,,,,,BOTH_ARMS,,,,,,,,,BOTH_ARMS,,,,,,,,,BOTH_ARMS,,,,,,,,
+,247026,177,Turn on,,ALL_ON_Yel_P,,,,,,,,,ALL_ON_Yel_P,,,,,,,,,ALL_ON_Yel_P,,,,,,,,,ALL_ON_Yel_P,,,,,,,,
+,247732,706,,Get,,1,1,0,0,1,1,1,0,,1,1,1,1,0,1,0,0,,1,1,1,1,1,0,1,0,,0,0,1,1,1,1,1,0
+,247997,265,,It,,1,1,1,1,1,0,1,0,,0,0,1,1,1,1,1,0,,1,1,1,1,0,1,0,0,,1,1,0,0,1,1,1,0
+,248262,265,,Get,,1,1,1,1,0,1,0,0,,1,1,0,0,1,1,1,0,,0,0,1,1,1,1,1,0,,1,1,1,1,1,0,1,0
+,248429,167,,It (-10 cause below),,0,0,1,1,1,1,1,0,,1,1,1,1,1,0,1,0,,1,1,0,0,1,1,1,0,,1,1,1,1,0,1,0,0
+,248439,10,,"TURN ALL On
+Flicker on (10)",ALL_ON_Yel_P,,,,,,,,,ALL_ON_Yel_P,,,,,,,,,ALL_ON_Yel_P,,,,,,,,,ALL_ON_Yel_P,,,,,,,,
+1 13.45,249145,706,All Lights from top to bottom off,,,1,1,1,1,0,1,1,0,,1,1,1,1,0,1,1,0,,1,1,1,1,0,1,1,0,,1,1,1,1,0,1,1,0
+,249322,177,,,,0,0,1,1,0,1,1,0,,0,0,1,1,0,1,1,0,,0,0,1,1,0,1,1,0,,0,0,1,1,0,1,1,0
+,249499,177,,,,0,0,1,1,0,0,0,0,,0,0,1,1,0,0,0,0,,0,0,1,1,0,0,0,0,,0,0,1,1,0,0,0,0
+,249676,177,,,ALL_OFF,,,,,,,,,ALL_OFF,,,,,,,,,ALL_OFF,,,,,,,,,ALL_OFF,,,,,,,,
+,249853,177,,Turn On,ALL_ON_Yel_P,,,,,,,,,ALL_ON_Yel_P,,,,,,,,,ALL_ON_Yel_P,,,,,,,,,ALL_ON_Yel_P,,,,,,,,
+,250559,706,Light Cue???,In (think),ALL_ON_Yel_P,,,,,,,,,ALL_ON_Yel_P,,,,,,,,,ALL_ON_Yel_P,,,,,,,,,ALL_ON_Yel_P,,,,,,,,
+,250824,265,,It (think),ALL_ON_Yel_P,,,,,,,,,ALL_ON_Yel_P,,,,,,,,,ALL_ON_Yel_P,,,,,,,,,ALL_ON_Yel_P,,,,,,,,
+,251089,265,,In (think),ALL_ON_Yel_P,,,,,,,,,ALL_ON_Yel_P,,,,,,,,,ALL_ON_Yel_P,,,,,,,,,ALL_ON_Yel_P,,,,,,,,
+,251266,177,,It (think),ALL_ON_Yel_P,,,,,,,,,ALL_ON_Yel_P,,,,,,,,,ALL_ON_Yel_P,,,,,,,,,ALL_ON_Yel_P,,,,,,,,
+,257619,6353,,,Just_Red_P,,,,,,,,,Just_Red_P,,,,,,,,,Just_Yel_P,,,,,,,,,Just_Yel_P,,,,,,,,
+,259383,1764,Flicker (off),,ALL_OFF,,,,,,,,,ALL_OFF,,,,,,,,,ALL_OFF,,,,,,,,,ALL_OFF,,,,,,,,
+,259472,89,Flicker (on),,Just_Red_P,,,,,,,,,Just_Red_P,,,,,,,,,Just_Yel_P,,,,,,,,,Just_Yel_P,,,,,,,,
+,261148,1676,Full off,,ALL_OFF,,,,,,,,,ALL_OFF,,,,,,,,,ALL_OFF,,,,,,,,,ALL_OFF,,,,,,,,
